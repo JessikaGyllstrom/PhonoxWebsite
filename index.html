@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to font-awsome icons-->
+    <script src="https://kit.fontawesome.com/5dbb2c70a6.js" crossorigin="anonymous"></script>
+    <!-- link to my css-->
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <a href="#" class="logo">phonox<span>.</span></a>    
+        <div class="icons">
+            <div id="menu-bar" class="fas fa-bars" onclick="openMenuFunction()"> </div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!--header end-->
+    <!-- navbar start-->
+    <nav class="navbar">     
+        <div class="user">
+            <a href="#" class="logo">phonox<span>.</span></a>        
+        </div>
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#bestsellers">bestsellers</a>
+            <a href="#latestproducts">latest products</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div id="close" class="fas fa-times" onclick="closeMenuFunction()"></div> 
+    </nav>
+    <!-- navbar end -->
+    <!-- home starts-->
+    <section class="home" id="home">
+        <div class="content center">
+            <img src="/images/headphones1.jpg">
+                <div class="text">
+                    <h2>special offer</h2>
+                    <h3>50% sale</h3>
+                    <a href="#" class="btn">shop now</a>     
+                </div>
+        </div>
+                         
+    </section>
+    <!-- home ends-->
+    <!-- bestseller section starts-->
+    <section class="category" id="bestsellers">
+
+    <h1 class="heading">Our <span>bestsellers</span></h1>
+
+    <div class="box-container">
+        
+
+        <div class="box">
+            <img src="/images/headphones2.jpg" alt="headphones">
+            <div class="content">
+                <h4>headphones</h4>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="/images/earbuds1.jpg" alt="earbuds">
+            <div class="content">
+                <h4>Earbuds</h4>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="/images/wireless-speaker2.jpg" alt="wireless-speaker">
+            <div class="content">
+                <h4>Speakers</h4>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </div>
+    
+    </section>
+    <!--bestsellers section ends-->
+    
+    <!-- latest products section start-->
+    <section class="latestproducts" id="latestproducts">
+
+    <h1 class="heading"> latest <span>products</span> </h1>
+
+    <div class="cardcontainer">
+    
+        <div class="card">  
+        <img src="/images/earbuds1.jpg">
+            <div class="productinfo">
+                <h5><span class="title"> Headphones </span>
+                    <span class="heart">
+                    <a href="#" class="fas fa-heart"></a>   
+                    </span>     
+                </h5>          
+                <span class="price"> 412$ </span>
+                <button>Add to cart<i class="fas fa-cart-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="card">  
+            <img src="/images/earbuds1.jpg">
+                <div class="productinfo">
+                    <h5><span class="title"> Headphones </span>
+                        <span class="heart">
+                        <a href="#" class="fas fa-heart"></a>   
+                        </span>     
+                    </h5>          
+                    <span class="price"> 412$ </span>
+                    <button>Add to cart<i class="fas fa-cart-plus"></i></button>
+                </div>
+        </div>
+
+        <div class="card">  
+            <img src="/images/earbuds1.jpg">
+                <div class="productinfo">
+                    <h5><span class="title"> Headphones </span>
+                        <span class="heart">
+                        <a href="#" class="fas fa-heart"></a>   
+                        </span>     
+                    </h5>          
+                    <span class="price"> 412$ </span>
+                    <button>Add to cart<i class="fas fa-cart-plus"></i></button>
+                </div>
+        </div>
+
+
+
+
+</div>
+    
+    </section>
+    <!-- latest products section ends-->
+
+    <!-- contact section starts-->
+
+    <section class="contact" id="contact">
+    
+       <div class="contactcontainer">
+
+        <div class="contact-box">
+            <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+           </div>
+         <div class="addres">
+             <h3>Adress:</h3>
+             <h5>2267 Progress Way</h5>
+              <h5>New York</h5>
+             <h5>Zip code: 10001</h5>
+         </div>
+        </div>
+        
+        <div class="contact-box">
+            <div class="contact-icon">
+             <i class="fas fa-phone-alt"></i>
+            </div>
+        <div class="phone">
+            <h3>Phone:</h3>
+            <h5>646-873-6681</h5>
+        </div>
+        </div>
+
+        <div class="contact-box">
+        <div class="contact-icon">
+            <i class="far fa-envelope"></i>
+        </div>
+        <div class="Email">
+            <h3>Email:</h3>
+            <h4>phonox@customerservice.com</h4>
+        </div>
+    </div>
+</div>
+
+    </section>
+    <!-- contact section ends-->
+
+
+    <!--js file-->
+    <script src="js/script.js"></script>
+</body>
+</html>
