@@ -173,36 +173,6 @@ header.active {
     color:#ff9500;
     text-transform: uppercase;
 }
-.category .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap:3rem;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid rgb(255, 255, 255);
-}
-.category .box-container .box {
-    border-radius: .5rem;
-    font-size: 2.5rem;
-
-}
-.category .box-container img {
-    width: 100%;
-    max-width: 30rem;
-    margin-bottom: 1.5rem;
-    height: 30rem;
-}
-.category .box-container .box:hover img {
-    transform: scale(1.1);
-}
-.category .box-container .content  {
-    color: #ff9500;
-    bottom: 7rem;
-    left: 2rem;
-    margin-top: 2rem;
-}
-.category .box-container .content h4  {
-    margin-right: 2rem;
-}
 
 .btn { 
     background-color: #ff9500;
@@ -217,7 +187,7 @@ header.active {
     background-color: #fff;
     color: #ff9500;
 }
-/* card section */
+/* cards */
 .cardcontainer {
   position: relative;
   display: flex;
@@ -240,15 +210,26 @@ header.active {
 .card:hover {
   transform: scale(1.1);
 }
+.card h3 {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
 .card img {
-  width: 100%;
   max-width: 30rem;
   margin-bottom: 1.5rem;
   display: block;
+  min-height: 25rem;
+  max-height: 25rem;
+
 }
 .card .productinfo h5 {
   display: flex;
   justify-content: space-between;
+  font-weight: 300;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+
 }
 .card .productinfo .price {
   font-size: 2rem;
@@ -331,6 +312,13 @@ header.active {
   font-weight: 300;
   text-transform: lowercase;
   font-size: 1.5rem;
+}
+.footer {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 200;
+    padding: 2rem;
 }
 
 
